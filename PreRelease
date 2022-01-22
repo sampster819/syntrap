@@ -485,9 +485,10 @@ end
 
 	Align(Handle,Torso,Vector3.new(0,0,-0.9),-Vector3.new())
 	
-	for i,v in pairs(game.Players.LocalPlayer.PlayerGui.ScreenGui:GetChildren()) do
+for i,v in pairs(game.Players.LocalPlayer.PlayerGui.ScreenGui:GetChildren()) do
 v:Destroy()
 end
+
 wait (1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sampster819/syntrap/main/PreRelease",true))() 
 
@@ -1051,7 +1052,7 @@ end
 	RightHip = Torso["Right Hip"]
 	LeftHip = Torso["Left Hip"]
 	local sick = Instance.new("Sound",Character)
-		for i,v in pairs(game.Players.LocalPlayer.PlayerGui.ScreenGui:GetChildren()) do
+for i,v in pairs(game.Players.LocalPlayer.PlayerGui.ScreenGui:GetChildren()) do
 v:Destroy()
 end
 wait (1)
