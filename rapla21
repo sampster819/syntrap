@@ -489,8 +489,44 @@ end
 
 	Align(Handle,Torso,Vector3.new(0,0,-0.9),-Vector3.new())
 
-game:GetService("Players").AwSonnenESSbrO1.PlayerGui.ScreenGui:destroy()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sampster819/syntrap/main/rapla21", true))()
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local destroy = Instance.new("ScreenGui")
+local del = Instance.new("Frame")
+local del_2 = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+--Properties:
+
+destroy.Name = "destroy"
+destroy.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+destroy.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+del.Name = "del"
+del.Parent = destroy
+del.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+del.Position = UDim2.new(0, 0, 0.873540998, 0)
+del.Size = UDim2.new(0, 100, 0, 100)
+
+del_2.Name = "del"
+del_2.Parent = del
+del_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+del_2.Position = UDim2.new(0.129999995, 0, 0.25, 0)
+del_2.Size = UDim2.new(0, 74, 0, 50)
+del_2.Font = Enum.Font.SourceSansSemibold
+del_2.Text = "X"
+del_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+del_2.TextSize = 33.000
+del_2.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head:Remove()
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui:destroy()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/sampster819/syntrap/main/rapla21", true))()
+end)
+
+UICorner.Parent = del_2
 
 	IT = Instance.new
 	CF = CFrame.new
@@ -1053,8 +1089,44 @@ end
 	RightHip = Torso["Right Hip"]
 	LeftHip = Torso["Left Hip"]
 	local sick = Instance.new("Sound",Character)
-game:GetService("Players").AwSonnenESSbrO1.PlayerGui.ScreenGui:destroy()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sampster819/syntrap/main/rapla21", true))()
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local destroy = Instance.new("ScreenGui")
+local del = Instance.new("Frame")
+local del_2 = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+--Properties:
+
+destroy.Name = "destroy"
+destroy.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+destroy.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+del.Name = "del"
+del.Parent = destroy
+del.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+del.Position = UDim2.new(0, 0, 0.873540998, 0)
+del.Size = UDim2.new(0, 100, 0, 100)
+
+del_2.Name = "del"
+del_2.Parent = del
+del_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+del_2.Position = UDim2.new(0.129999995, 0, 0.25, 0)
+del_2.Size = UDim2.new(0, 74, 0, 50)
+del_2.Font = Enum.Font.SourceSansSemibold
+del_2.Text = "X"
+del_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+del_2.TextSize = 33.000
+del_2.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head:Remove()
+	game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui:destroy()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/sampster819/syntrap/main/rapla21", true))()
+end)
+
+UICorner.Parent = del_2
 
 	IT = Instance.new
 	CF = CFrame.new
