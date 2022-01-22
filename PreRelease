@@ -488,6 +488,7 @@ end
 	for i,v in pairs(game.Players.LocalPlayer.PlayerGui.ScreenGui:GetChildren()) do
 v:Destroy()
 end
+wait (1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sampster819/syntrap/main/PreRelease",true))() 
 
 
@@ -1053,6 +1054,7 @@ end
 		for i,v in pairs(game.Players.LocalPlayer.PlayerGui.ScreenGui:GetChildren()) do
 v:Destroy()
 end
+wait (1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sampster819/syntrap/main/PreRelease",true))() 
 
 
